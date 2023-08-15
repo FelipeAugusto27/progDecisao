@@ -7,7 +7,7 @@ O programa deverá exibir se a resposta está correta.
 resposta = input("Informe a capital do Brasil, a resposta deve estár escrita gramáticamente correta: ")
 
 # Processamento e Output
-if resposta == "Brasília":
+if (resposta == "Brasília"):
     print("Correto!")
 else:
     print("Resposta invalida")

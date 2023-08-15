@@ -6,9 +6,9 @@ Desenvolver um programa que pergunte um número e exiba a informação de que el
 num = float(input("Informe um número: "))
 
 # Processamento e Output
-if num > 0:
+if (num > 0):
     print("O número é positivo.")
-elif num < 0:
+elif (num < 0):
     print("O número é negativo.")
 else:
     print("O número é nulo.")
